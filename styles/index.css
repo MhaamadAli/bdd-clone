@@ -323,10 +323,10 @@ header img {
     justify-content: top;
     align-items: center;
     gap: 10px;
-    background-color: #f5f5f5;
     padding-top: 20px;
-    padding-bottom: 20px;
-    background: url('../assets/bg-icon-empty.png')
+    padding-bottom: 30px;
+    background: url('../assets/bg-icon-empty.png');
+    background-color: #ececec;
   }
   .trending h2 {
     font-size: 2rem;
@@ -361,9 +361,55 @@ header img {
     width: 350px;
     max-width: 400px;
   }
-
   .dots {
     display: flex;
+    flex-direction: row;
     gap: 15px;
   }
 
+  .dots span{
+    color: #807f7f;
+    font-size: 2rem;
+    transition: 0.2s ease;
+  }
+  .dots span:hover {
+    cursor: pointer;
+    color: #000000;
+  }
+
+.community-words {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  margin-top: 40px;
+  align-items: top;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.community-words .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.community-words h2 {
+  padding-right: 30px;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.community-words .images {
+  display: flex;
+  gap: 10px;
+}
+
+.community-words .images img {
+  max-width: 250px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
