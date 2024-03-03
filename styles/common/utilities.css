@@ -22,3 +22,58 @@
   cursor: pointer;
   outline: none;
 }
+
+
+
+footer {
+  background-color: #212121;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+.f-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #b6b6b6;
+}
+
+.s-column {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+}
+
+footer li  {
+  list-style: none;
+}
+
+footer li a {
+  text-decoration: none;
+  color: #f9f9f9;
+}
+
+footer p {
+  color: #646464;;
+}
+
+footer .f-column .images {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+
+}
+
+footer .f-column .images img {
+  width: 150px;
+  max-width: 180px;
+  
+}
